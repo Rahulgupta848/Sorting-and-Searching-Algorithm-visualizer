@@ -1,0 +1,13 @@
+.searchbar{
+     /* background-color:rgb(213, 174, 16); */
+     background-color: white;
+     transition-property: 'height';
+     transition-delay: 1000ms;
+     transition: 0.01s ;
+}
+.searchcolor1{
+     background-color:rgb(8, 173, 24) ;
+}
+.searchcolor2{
+     background-color: rgb(223, 27, 9);
+}

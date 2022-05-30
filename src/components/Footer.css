@@ -1,0 +1,24 @@
+.footer{
+     position:fixed;
+     left:190px;
+     top: 5px;
+     height: 78px;
+     z-index: 2000;
+     border-radius: 50px;
+     display: flex;
+     justify-content: center;
+}
+.footercontext{
+     background-color: rgba(248, 244, 244, 0.1);
+     width:300px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     gap:3px;
+     font-size:18px;
+     font-family: cursive;
+     z-index: 1000;
+     border:2px solid white;
+     border-radius: 20px;
+     color:white;
+}

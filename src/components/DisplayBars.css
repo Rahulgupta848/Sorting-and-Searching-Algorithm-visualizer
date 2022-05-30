@@ -1,0 +1,15 @@
+.bar{
+     /* background-color:rgb(213, 174, 16); */
+     background-color: white;
+     transition-property: 'height';
+     transition-delay: 1000ms;
+     transition: 0.01s ;
+}
+.color1{
+     background-color:rgb(8, 173, 24) ;
+}
+.color2{
+     background-color: rgb(223, 27, 9);
+} 
+
+
