@@ -1,0 +1,24 @@
+.alertpage{
+     width:100%;
+     height:100vh;
+     background-color: rgb(2, 2, 63);
+     display: flex;
+     justify-content: center;
+    
+}
+.alertbox{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: rgba(215, 225, 225,0.1);
+     height:200px;
+     width:300px;
+     margin-top: 20px;
+     
+}
+.alertheading{
+     color:white;
+     font-family: cursive;
+     padding:0 20px;
+     
+}
