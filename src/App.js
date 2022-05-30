@@ -12,8 +12,7 @@ function App() {
   return (
     
     <div className="App">
-        {deviceWidth>800?<Navbar></Navbar>:<DeviceAlert></DeviceAlert>}
-        
+        {deviceWidth>800?<Navbar></Navbar>:<DeviceAlert></DeviceAlert>} 
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import './Navbar.css'
 import {ArrayContext} from './context/ArrayContext'
+import Home from './Home';
 import GenerateArray from './GenerateArray';
 import BubbleSort from './BubbleSort';
 import MergeSort from './MergeSort';
@@ -36,7 +37,7 @@ export default function Navbar() {
                     <div className='displayarray'>
                          <ArrayContext.Provider value={{newArray,setNewArray,Size,setSize, val,setVal}}>
                               <Routes>
-                                   
+                                   <Route path='/' element={<Home></Home>}></Route>
                                    <Route path='/generatearray' element={<GenerateArray></GenerateArray>}></Route>
                                    <Route path='/bubblesort' element={<BubbleSort></BubbleSort>}></Route>
                                    <Route path='/selectionsort' element={<SelectionSort></SelectionSort>}></Route>
